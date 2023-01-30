@@ -1,2 +1,2 @@
 # SQL-Projects
-SQL code I wrote in Khan Academy.
+These are all projects I worked on in Khan academy while learning how to write queries in SQL.
