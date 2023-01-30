@@ -1,0 +1,18 @@
+CREATE TABLE houseplants (id INTEGER PRIMARY KEY, 'genus_name' TEXT, 'genus_variety' TEXT, 'light' TEXT, 'water' INTEGER);
+
+INSERT INTO houseplants VALUES (1, 'hoya', 'crimson princess', 'BI', 1);
+INSERT INTO houseplants VALUES (2, 'hoya', 'crimson queen', 'BI', 1);
+INSERT INTO houseplants VALUES (3, 'hoya', 'compacta', 'BI', 1);
+INSERT INTO houseplants VALUES (4, 'philodendron', 'atabapoense', 'BI', 2);
+INSERT INTO houseplants VALUES (5, 'philodenrdon', 'brasil', 'BI', 2);
+INSERT INTO houseplants VALUES (6, 'philodenrdon', 'paraiso verde', 'BI', 2);
+INSERT INTO houseplants VALUES (7, 'philodendron', 'gloriosum', 'BI', 2);
+INSERT INTO houseplants VALUES (8, 'syngonium', 'albo', 'BI', 3);
+INSERT INTO houseplants VALUES (9, 'syngonium', 'aurea', 'BI', 3);
+INSERT INTO houseplants VALUES (10, 'syngonium', 'mojito', 'BI', 3);
+INSERT INTO houseplants VALUES (11, 'syngonium', 'panda', 'BI', 3);
+INSERT INTO houseplants VALUES (12, 'anthurium', 'forgetii', 'BI', 2);
+INSERT INTO houseplants VALUES (13, 'anthurium', 'crystalinum', 'BI', 2);
+INSERT INTO houseplants  VALUES (14, 'anthurium', 'clarinervium', 'BI', 2);
+INSERT INTO houseplants VALUES (15, 'anthurium', 'esmeraldense', 'BI', 2);
+SELECT * FROM houseplants;
